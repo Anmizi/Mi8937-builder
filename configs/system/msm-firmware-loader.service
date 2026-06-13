@@ -5,7 +5,6 @@ Before=qrtr-ns.service
 [Service]
 Type=oneshot
 ExecStart=/usr/sbin/msm-firmware-loader.sh
-RequiresMountsFor=/lib/firmware /usr/sbin
 
 [Install]
 WantedBy=multi-user.target
